@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const BOT_TOKEN = "7893322030:AAEjS_TbKslgdl6iVrhDQ-atnufHZ95KkO0";
+const BOT_TOKEN = "7893322030:AAET-QQcaYLDe_KJu1dGWAvcggJVxHujLeM";
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 const adminChatIds = ['978702643', '6391185835'];
 
