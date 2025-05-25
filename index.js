@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const TELEGRAM_API = `https://api.telegram.org/bot${7893322030:AAEjS_TbKslgdl6iVrhDQ-atnufHZ95KkO0}`;
+const TELEGRAM_API = `https://api.telegram.org/bot7893322030:AAEjS_TbKslgdl6iVrhDQ-atnufHZ95KkO0`;
 const adminChatIds = ['978702643', '6391185835'];
 
 app.post("/api/bot", async (req, res) => {
